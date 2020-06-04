@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>UPDATE plane via id</title>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="fontawesome/css/font-awesome.css">
+</head>
+
+<body>
+  <div class="container">
+    <h2><span class="badge badge-dark"> Update plane (id: 1)</span></h2>
+    <form id="updateform" name="form1" method="post">
+      <div class="form-group">
+        <label for="size">Model:</label><br />
+        <input class="form-control" type="text" id="model" name="model" required /><br /><br />
+
+        <label for="trips">Trips:</label><br />
+        <input class="form-control" type="number" id="trips" name="trips" required /><br /><br />
+
+        <input class="btn btn-dark" type="submit" value="Submit" />
+      </div>
+    </form>
+    <a class="btn btn-dark" href="index.html"> <i class="fa fa-home"></i> Home</a>
+    <a class="btn btn-dark" href="getallplanes.html"> <i class="fa fa-plane"></i> All Planes</a>
+
+  </div>
+
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="js/updateplane.js"></script>
+
+</body>
+
+</html>
