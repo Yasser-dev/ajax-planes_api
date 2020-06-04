@@ -12,7 +12,7 @@ $("#updateform").submit(function (event) {
   //*
   $.ajax({
     type: "post",
-    url: "api/updateplane.php?planeid=1",
+    url: "../api/updateplane.php?planeid=1",
     data: formData,
     dataType: "json",
     success: function (data) {

@@ -10,7 +10,7 @@ $(function () {
     //*
     $.ajax({
       type: "post",
-      url: "api/insertplane.php",
+      url: "../api/insertplane.php",
       data: formData,
       dataType: "json",
       success: function (data) {

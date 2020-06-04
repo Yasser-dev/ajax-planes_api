@@ -3,7 +3,7 @@ $(function () {
 
   $.ajax({
     type: "get",
-    url: "api/getplaneviaid.php?planeid=1",
+    url: "../api/getplaneviaid.php?planeid=1",
     dataType: "json",
     success: function (data) {
       $("#id").html(data.planeid);

@@ -3,7 +3,7 @@ $(function () {
 
   $.ajax({
     type: "get",
-    url: "api/getallplanes.php",
+    url: "../api/getallplanes.php",
     dataType: "json",
     success: function (data) {
       var index = 0;

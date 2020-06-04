@@ -3,7 +3,7 @@ $(function () {
 
   $.ajax({
     type: "delete",
-    url: "api/deleteplane.php?planeid=2",
+    url: "../api/deleteplane.php?planeid=2",
     dataType: "json",
     success: function (data) {
       if (data.deleteStatus) {
